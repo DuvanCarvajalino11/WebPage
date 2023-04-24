@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    background: rgb(17, 0, 255);
+    position: fixed;
+    width: 100%;
+    
+}
+
+.barranav {
+    display: flex;
+    margin-right: 12px;
+}
+
+.log img {
+    width: 52px;
+}
+
+.barranav img {
+    width: 28px;
+}
+
+.barranav a {
+    display: block;
+    padding: 20px 22px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.barranav a:hover {
+    background: rgb(8, 96, 247);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    height: 84vh !important;
+    background: url("/img/fondo.jpg") center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 18px;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: rgb(230, 243, 249);
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding: 0 100px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid rgb(13, 2, 2);
+    color: #fff;
+    text-decoration: none;
+    background: rgb(14, 202, 239);
+}
+
+.button:hover {
+    background: none;
+}
+
+.buttonP {
+    display: flex;
+}
+
+.buttonP a {
+    margin: 0 10px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prod {
+    padding: 60px;
+    background: rgb(0, 0, 0);
+}
+
+.icons-b {
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+
+}
+
+.icons-b .box {
+    height: 10rem;
+    width: 18rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.icons-b .box img {
+    height: 3rem;
+    width: 3rem;
+    line-height: 4rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: rgb(10, 164, 220);
+    font-size: 1rem;
+    margin: 1rem 0;
+
+}
+
+.icons-b .box h3 {
+    font-size: 20px;
+    color: rgb(10, 164, 220);
+
+}
+
+.icons-b .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.nost {
+    background: rgb(21, 20, 20);
+}
+
+.fond {
+    background: url("/img/fondop.jpg") no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 30px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+.txt {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
